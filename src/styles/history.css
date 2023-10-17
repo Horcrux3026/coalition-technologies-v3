@@ -9,8 +9,7 @@
 
 .history {
     top: 3vw;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
     width: 60%;

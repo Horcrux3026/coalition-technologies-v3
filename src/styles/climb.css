@@ -1,0 +1,39 @@
+#climbText {
+    
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    padding-top: 0.5vw;
+    padding-bottom: 1.5vw;
+    margin: auto;
+  }
+  
+  .sectionNumber2 {
+    color: #414f6b;
+    opacity: 50%;
+    font-size: 9vw;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.02vw;
+  }
+  
+  .sectionTitle2 {
+    align-self: flex-end;
+    color: #414f6b;
+    font-size: 2vw;
+    font-family: "Oswald", sans-serif;
+    margin-left: -1.9vw;
+    margin-bottom: 4vw;
+  }
+  
+  .sectionText2 {
+    margin-left: 2vw;
+    width: 40vw;
+    line-height: 1.7vw;
+    letter-spacing: 0.02vw;
+    font-size: 1vw;
+    align-self: center;
+    font-family: "Lato", sans-serif;
+  }
+  
