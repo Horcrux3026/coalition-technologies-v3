@@ -13,7 +13,7 @@ function header() {
                     <a href="#historyContainer">01. HISTORY </a>
                 </div>
                 <div>
-                    <a href="#teamContainer">02. TEAM</a>
+                    <a href="#climbText">02. TEAM</a>
                 </div>
             </div>
         </div>

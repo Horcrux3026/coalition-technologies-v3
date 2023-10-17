@@ -14,7 +14,7 @@
     border-radius: 50%;
 }
 
-.navItem{
+.stickyNavItem{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -22,7 +22,32 @@
     text-decoration: underline;
 }
 
-.navItem>div>a{
+.logoText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0.2vw;
+  }
+  
+  #upperText {
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+    color: #4d4d4d;
+    font-family: "Bebas Neue";
+    line-height: 2vw;
+    margin-top: -0.9vw;
+  }
+  
+  #lowerText {
+    color: #414f6b;
+    font-family: "Bebas Neue";
+    font-size: 1.9vw;
+    line-height: 0.6vw;
+    letter-spacing: 0.01vw;
+  }
+  
+
+.stickyNavItem>div>a{
     color: #414f6b;
     font-weight: 700;
 }
