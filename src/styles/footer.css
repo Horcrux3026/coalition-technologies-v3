@@ -1,0 +1,55 @@
+#footer {
+    width:100%;
+    display: flex;
+    background-color: #414f6b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    color: #63769d;
+    padding: 1vw 0vw;
+  }
+  
+  .logoWrapper {
+    height: 3vw;
+    width: 3vw;
+    display: flex;
+    border-radius: 50%;
+  }
+  
+  .logoWrapper > .logo {
+    border-radius: 50%;
+    background-color: #63769d;
+    height: 3vw;
+    width: 3vw;
+  }
+  
+  .footer > .logoWrapper > .logo > img {
+    mix-blend-mode: multiply;
+    margin-top: 0vw;
+  }
+  
+  .footer > .logoWrapper > .logoText > #upperText {
+    color: #63769d;
+  }
+  
+  .footer > .logoWrapper > .logoText > #lowerText {
+    color: #63769d;
+  }
+  
+  .footerText {
+    color: #63769d;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    display: flex;
+    align-self: center;
+    letter-spacing: 0.1vw;
+    font-size: 0.85vw;
+  }
+  
+  @media screen and (max-width: 768px) {
+    footer {
+      border-top: 0.01vw solid black;
+    }
+  }
+  
