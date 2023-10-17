@@ -1,0 +1,67 @@
+
+#schedule{
+    display:flex;
+    flex-direction: column;
+    height: 550px;
+    width:100%;
+    background-image:url(../pictures/CT_SkillTest_v311.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 46%;
+}
+
+#titles{
+    height:50px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    /* margin-left:250px;  */
+    color: #b0b4be;
+    background-color: #414f6b;
+    padding-left: 350px;
+    /* gap:20px; */
+}
+.titleName{
+    padding-top: 1%;
+    text-align: center;
+}
+
+#titles>div{
+    width:12%;
+    height:50px;
+    font-weight: 700;
+    font-size: 1.3vw;
+    align-self: center;
+    text-decoration: underline;
+}
+
+.titleName:hover{
+    background-color: #b0b4be;
+    color:#414f6b ;
+}
+
+#dates{
+    margin-top: 100px;
+    margin-left: 350px;
+    height:35%;
+    width:20%;
+    border:1px solid black;
+    background: rgba(255,255,255,0.7);
+    padding: 15px;
+    /* opacity: 0.7; */
+    border: none;
+    
+}
+
+.schedule{
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+.scheduleDates{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color:#414f6b;
+    
+}
+
